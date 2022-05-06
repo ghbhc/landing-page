@@ -4,20 +4,85 @@ Root variables
 ========================================================================== 
 */
 :root {
+  --blue: #3882f6;
   --dark-blue: #1f2937;
   --light-gray: #e5e7eb;
+  --white: #f9faf8;
+}
+
+/* 
+==========================================================================
+Base 
+========================================================================== 
+*/
+
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0
+}
+
+.top,
+.random-info,
+.quote,
+.bottom{
+  margin: 0;
+  padding: 0 10vw;
 }
 
 /*
 ==========================================================================
-Base divs
+Text class selectors
 ========================================================================== 
 */
 
+.logo-text {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.secondary-text-list {
+  color: var(--light-gray);
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.hero-main-text {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/*
+==========================================================================
+Main page
+========================================================================== 
+*/
+
+/* 
+Top section
+========================================================================== 
+*/
 .top {
   background: var(--dark-blue)
 }
 
-.quote {
-  background: var(--light-gray)
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > ul {
+  display: flex;
+  gap: 2vw;
+}
+
+.top-main-content {
+  display: flex;
+}
+
+.sign-up {
+
 }
