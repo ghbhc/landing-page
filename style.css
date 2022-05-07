@@ -91,7 +91,8 @@ header > ul {
 }
 
 .sign-up {
-
+  max-width: 400px;
+  flex: none;
 }
 
 .top-section-button {
