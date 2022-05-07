@@ -84,18 +84,19 @@ header > ul {
 }
 
 .top-main-content {
-  padding: 8vh 0;
+  padding: 7vh 0 9vh;
   display: flex;
   justify-content: space-between;
   gap: 10vw;
 }
 
 .sign-up {
-  max-width: 400px;
+  max-width: 500px;
   flex: none;
 }
 
 .top-section-button {
+  margin-top: 10px;
   background: var(--blue);
   border-radius: 8px;
   border: none;
