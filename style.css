@@ -71,12 +71,17 @@ Top section
 */
 .top {
   background: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top > header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  width: 1228px;
+  flex: auto
 }
 
 header > ul {
