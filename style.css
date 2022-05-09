@@ -70,7 +70,7 @@ Top section
 ========================================================================== 
 */
 .top {
-  background: var(--dark-blue)
+  background: var(--dark-blue);
 }
 
 .top > header {
@@ -87,8 +87,8 @@ header > ul {
 .top-main-content {
   padding: 7vh 0 9vh;
   display: flex;
-  justify-content: space-between;
-  gap: 10vw;
+  justify-content: center;
+  gap: 125px;
 }
 
 .sign-up {
@@ -127,7 +127,7 @@ Random info section
 
 .info-container {
   display: flex;
-  gap: 80px;
+  gap: 60px;
   justify-content: center;
 }
 
@@ -157,6 +157,7 @@ Quote section
   background: var(--light-gray);
   padding: 100px 400px;
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -165,12 +166,13 @@ Quote section
   font-style: italic;
   font-weight: 100;
   margin-bottom: 0; /* moved default p bottom margin below quote auhor */
+  max-width: 775px;
 }
 
 .quote-author {
   color: var(--almost-black);
   font-size: 24px;
   font-weight: bold;
-  margin-left: auto;
   margin-bottom: 36px;
+  margin-left: 400px;
 }
