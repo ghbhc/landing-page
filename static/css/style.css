@@ -138,6 +138,11 @@ Random info section
 
 .info-item {
   width: 180px;
+  transition: transform .3s ease-in-out;
+}
+
+.info-item:hover {
+  transform: scale(1.2)
 }
 
 .info-square {
